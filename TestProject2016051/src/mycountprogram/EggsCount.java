@@ -3,6 +3,7 @@ package mycountprogram;
 public class EggsCount {
 	
 	/**
+<<<<<<< HEAD
 	 * è®¡ç®—å­˜æ”¾å°äºåä¸‡ä¸ªé¸¡è›‹çš„ç¯®å­ï¼Œå¯ä»¥æ»¡è¶³ä¸€ä¸‹è§„åˆ™ï¼š<br>
 	 * 1ä¸ª1ä¸ªçš„æ‹¿å‡ºé¸¡è›‹ï¼Œæ•´å¥½æ‹¿å®Œï¼›<br>
 	 * 2ä¸ª2ä¸ªçš„æ‹¿å‡ºé¸¡è›‹ï¼Œè¿˜å‰©1ä¸ªï¼›<br>
@@ -13,6 +14,18 @@ public class EggsCount {
 	 * 7ä¸ª7ä¸ªçš„æ‹¿å‡ºé¸¡è›‹ï¼Œæ•´å¥½æ‹¿å®Œï¼›<br>
 	 * 8ä¸ª8ä¸ªçš„æ‹¿å‡ºé¸¡è›‹ï¼Œè¿˜å‰©1ä¸ªï¼›<br>
 	 * 8ä¸ª8ä¸ªçš„æ‹¿å‡ºé¸¡è›‹ï¼Œæ•´å¥½æ‹¿å®Œã€‚
+=======
+	 * ¼ÆËã´æ·ÅĞ¡ÓÚÊ®Íò¸ö¼¦µ°µÄÀº×Ó£¬¿ÉÒÔÂú×ãÒ»ÏÂ¹æÔò£º<br>
+	 * 1¸ö1¸öµÄÄÃ³ö¼¦µ°£¬ÕûºÃÄÃÍê£»<br>
+	 * 2¸ö2¸öµÄÄÃ³ö¼¦µ°£¬»¹Ê£1¸ö£»<br>
+	 * 3¸ö3¸öµÄÄÃ³ö¼¦µ°£¬ÕûºÃÄÃÍê£»<br>
+	 * 4¸ö4¸öµÄÄÃ³ö¼¦µ°£¬»¹Ê£1¸ö£»<br>
+	 * 5¸ö5¸öµÄÄÃ³ö¼¦µ°£¬»¹Ê£1¸ö£»<br>
+	 * 6¸ö6¸öµÄÄÃ³ö¼¦µ°£¬»¹Ê£3¸ö£»<br>
+	 * 7¸ö7¸öµÄÄÃ³ö¼¦µ°£¬ÕûºÃÄÃÍê£»<br>
+	 * 8¸ö8¸öµÄÄÃ³ö¼¦µ°£¬»¹Ê£1¸ö£»<br>
+	 * 8¸ö8¸öµÄÄÃ³ö¼¦µ°£¬ÕûºÃÄÃÍê¡£
+>>>>>>> d4b1f762158692e3a8fec5e5fa07c4081ae5bd4a
 	 * @param args
 	 */
 	public static void main(String[] args){
@@ -25,17 +38,26 @@ public class EggsCount {
 			if(i%7!=0)continue;
 			if((i-1)%8!=0)continue;
 			if(i%9!=0)continue;
+<<<<<<< HEAD
 			System.err.println("é¸¡è›‹ä¸ªæ•°ï¼š"+i+";\n"+appendMessage(i));
+=======
+			System.err.println("¼¦µ°¸öÊı£º"+i+";\n"+appendMessage(i));
+>>>>>>> d4b1f762158692e3a8fec5e5fa07c4081ae5bd4a
 		}
 	}
 	
 	/**
+<<<<<<< HEAD
 	 * æ‹¼æ¥æ‹¿å–æ¬¡æ•°ä¿¡æ¯
+=======
+	 * Æ´½ÓÄÃÈ¡´ÎÊıĞÅÏ¢
+>>>>>>> d4b1f762158692e3a8fec5e5fa07c4081ae5bd4a
 	 * @param i
 	 * @return
 	 */
 	private static String appendMessage(int i){
 		StringBuilder message = new StringBuilder();
+<<<<<<< HEAD
 		message.append("2ä¸ªçš„æ‹¿è¦"+(i-1)/2+"æ¬¡ï¼›");
 		message.append("3ä¸ªçš„æ‹¿è¦"+(i)/3+"æ¬¡ï¼›");
 		message.append("4ä¸ªçš„æ‹¿è¦"+(i-1)/4+"æ¬¡ï¼›");
@@ -44,6 +66,16 @@ public class EggsCount {
 		message.append("7ä¸ªçš„æ‹¿è¦"+(i)/7+"æ¬¡ï¼›");
 		message.append("8ä¸ªçš„æ‹¿è¦"+(i-1)/8+"æ¬¡ï¼›");
 		message.append("9ä¸ªçš„æ‹¿è¦"+(i)/9+"æ¬¡ã€‚");
+=======
+		message.append("2¸öµÄÄÃÒª"+(i-1)/2+"´Î£»");
+		message.append("3¸öµÄÄÃÒª"+(i)/3+"´Î£»");
+		message.append("4¸öµÄÄÃÒª"+(i-1)/4+"´Î£»");
+		message.append("5¸öµÄÄÃÒª"+(i-1)/5+"´Î£»");
+		message.append("6¸öµÄÄÃÒª"+(i-3)/6+"´Î£»");
+		message.append("7¸öµÄÄÃÒª"+(i)/7+"´Î£»");
+		message.append("8¸öµÄÄÃÒª"+(i-1)/8+"´Î£»");
+		message.append("9¸öµÄÄÃÒª"+(i)/9+"´Î¡£");
+>>>>>>> d4b1f762158692e3a8fec5e5fa07c4081ae5bd4a
 		return message.toString();
 	}
 
